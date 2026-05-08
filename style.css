@@ -1,0 +1,7 @@
+body { margin: 0; background: #222; font-family: sans-serif; overflow: hidden; }
+.game-area { display: flex; justify-content: center; align-items: center; height: 100vh; position: relative; }
+#road { width: 300px; height: 100vh; background: #333; position: relative; border-left: 5px dashed white; border-right: 5px dashed white; overflow: hidden; }
+#playerCar { width: 50px; height: 80px; background: red; position: absolute; bottom: 20px; left: 125px; border-radius: 5px; }
+.enemy { width: 50px; height: 80px; background: blue; position: absolute; border-radius: 5px; }
+#score { position: absolute; top: 10px; left: 10px; color: white; font-size: 24px; z-index: 10; }
+#startScreen { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #d4af37; padding: 20px; cursor: pointer; color: black; font-weight: bold; z-index: 20; }
